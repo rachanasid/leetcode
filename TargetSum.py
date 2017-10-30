@@ -12,7 +12,7 @@ def findTargetSumBruteForce(nums, S):
     return count(nums, S, 0)
 
 
-#  O(n*(2*sum))
+#  O(n*S)
 def findTargetSum(nums, S):
     total_sum = sum(nums)
     if total_sum < S or (total_sum + S) % 2 == 1:
